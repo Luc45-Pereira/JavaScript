@@ -8,9 +8,19 @@
         <script type="text/javascript" src="http://livejs.com/live.js"></script>
     </head>
     <body>
+        <header>
+            <H1>Lucas Pereira de Lima</H1>
+        </header>
         <section class="form">
+            <input type="text" name="valor1" id="valor1" placeholder="Digite um numero para calcular">
+            <select name="sinal" id="sinal">
+                <option value="+">Soma</option>
+                <option value="-">Subtração</option>
+                <option value="*">Multiplicação</option>
+                <option value="/">Divisão</option>
+            </select>
+            <input type="text" name="valor2" id="valor2" placeholder="Digite um numero para calcular">
             <input type="button" value="Calculadora JavaScript" onclick="Calculadora()">
-            <h1 id="resultado">Total</h1>
         </section>
         
     </body>
