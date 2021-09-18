@@ -10,6 +10,21 @@ html, body{
     background-size: cover;
 }
 
+.form select{
+    display: block;
+    margin: 20px auto;
+    box-sizing: content-box;
+    border: 2px solid #1ce2f0;
+    border-radius: 25px;
+    width: 75%;
+    height: 40px;
+    padding: 2px 5px;
+    font-size: 16pt;
+    transition: .2s;
+    outline: none;
+    background-color: transparent;
+    text-indent: 10px;
+}
 
 .form input{
     display: block;
@@ -39,5 +54,9 @@ html, body{
     background-color: #1c91f0b6;
     color: #ffffff;
     transition: 1s;
+}
+
+H1{
+    padding-left: 30%;
 }
 
